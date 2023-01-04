@@ -1,0 +1,74 @@
+assets papqasın da şekillər, css kodlarımız, js kodlarımız saxlanılmalıdır düzgün kod strukturu üçün
+
+<h1-6>  - Tag'ləri adınnan da göründüyü kimi header sözünün ilk hərfi ilə düzelir və Azerbaycan ca qarşılığı da başlıq deməkdir
+və başlıqları Uİ-də qeyd etmək üçün isdifadə olunur.
+ 
+
+<!----> Comment adlanır və proqram Uİ da inspect hissəsində görsənir və proqram tərəfindən oxunmur
+və yazdığımız kod da qeydlər etməyimizə imkan yaradır.
+
+
+Tag'lar iki cür olur açılıb bu şəkildə bağlanan <h1> </h1> və birdə açılıb bu şəkildə bağlanmayan <b1>
+
+
+hər hansısa bir text metinini əlimizlə mexaniki şekildə random yazmamaq üçün lorem yazıb tab düyməsinə basırıq 
+və tag özü random şəkildə daha sürətli mətn yazır
+
+
+Tag'lər iki yere bölünür block elementlər və inline elementlər.
+
+
+Tag block elementlərdən isdifadə ederkən yazdığımız (tək hərf belə olsa) bütün sətri başdan başa tutur.
+
+
+Tag inline elementlərdəm isdifadə ederkən yazdığımız text qədər yer tutur.
+
+
+p və span tag'lərinin arasın da ki fərqlərdən biri də style'ı html də verdikdə əsasən span tag'i nə style vermək daha düzgündür.
+
+
+Tag'lərin özünə məxsuz "atributları olur" məsələn <a> tag'
+nin atributu "a+tab" a basdıdığımız zaman 
+<a href=""> </a> bu kod sətirini görəcəyik burda ki "href" a tag'nin atributu hesab olunur.
+
+
+<abbr> tag'i "by default" olaraq title tag'inə birşey yazmasaq da yazılan yazının uzunluğun qədər yazının altına nöktələr qoyur.
+
+
+<img src="" alt=""> tag'i şekillər üçün isdifadə olunur vı local-dan və ya link vasitəsi ilə işlətmək mümkündür.
+img tag'inin atributlarından biri "alt" şəkil ekrandan acılmasa şekildə hansı təsvir var onu bildirmək üçün isdifadə olunur
+şəkil localdan düz çağırılmadığı zaman, silindiyi zaman və link kimi səhv isdifadə edildiyi zaman düzgün açılmaya bilər
+"src" tag'inin açılışı source deməkdir və hər hansısa browserdə ki şəkil linklərini isdifadə ederkən bu tag'dən isdifadə etməliyik.
+Şəkili localdan çağırıb isdifadə etmək daha düzgündür və kod oxunağlığını artırır bu halda şekil yanlız sildiyi və ya səhv çağırıldığı halda xəta verə bilər
+
+
+<details> tag'i İstifadəçinin baxa və ya gizlədə biləcəyin açılan (qutu) yaradır.
+
+
+<summary> tag'i "<details>" tag'i üçün görünən başlığı müəyyən edir və <details> daxilində yazılmasa heçbir işə yaramır.
+index.html səhvəsində  100-cü sətrdə ki kimi isdifadə olunur.
+
+
+<ol> ordered list sözündən götürülmədir və atributu "type" vasitəsi ilə by default olan rəqəm sıralamasını hərf(böyük və ya kiçik şrift),rum rəqəmləri (böyük və ya kiçik şrift), rəqəmlər
+kimi göstərmək mümkündür.
+
+
+<ul> tag'inin içində ki listlərin solunda ki işarələri dəyişmək üçün isə "style" atributundan isdifadə olunur. 
+style tag'i yox atributundan isdifadə etməliyik tam ətraflı növbəti dərslərimizdə
+
+
+Bütün tag'lərin atributları olur
+
+
+<form action=""></form> Formun "action" atributu submit olundu zaman action'a yazdığımız linkə keçid edir.
+
+
+input tag'lərinə name atributunu yazıb düzgün adlandırmaq çox vacibdir back tərəfi üçün
+
+input radio dan isdifadə ederkən name atributuna eyni deyəri vermək lazımdır ki ikisi və ya daha çoxu arasında sadəcə 1 dənəsi seçilsin
+
+link'lərə target blank verdik də klick olunan link yeni broüeser tab'in də açılır
+
+input taglarinin atrubutlarina checkt verdiyimiz halda resetlesek bele checkt olan tag'lər 0 lanmıyacaq
+
+

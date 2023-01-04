@@ -1,0 +1,13 @@
+Uİ - user interface deməkdir 
+
+UTF-8 verilən bir simvolun max 8bit yer tutacağını bildirir
+
+Yazılan bütün kodlar <html> tag'in də yazılır
+
+Bütün linklər və bu kimi konfiqurasiyalar <head> tag'i daxilin də yazılır və Uİ-da görsənmir
+
+Bütün əsas struktur yəni əsas özək kodlar <body> tag'inin daxilin də yazılır  
+
+Comment - <!-- --> bu şəkildə yazılır və proqram tərəfindən oxunmur. Uİ-in inspect hissəsində görsənsə belə dərc olunmur bu da kod yazarkən rahat qeydlər etməyimizə kömək edir.
+
+Qeyd: linklərə rahat daxil olmaq üçün ctrl düməsinə basıb saxlıyaraq linklərə click edə bilərsiz
