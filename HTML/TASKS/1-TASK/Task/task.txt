@@ -1,2 +1,0 @@
-1) Login sehife duzeltmek (form vasitesile). Dizayni ureyiniz isteyen kimi duzelde bilersiz.
-2) Register sehifesi duzeltmek (form vasitesile). Dizayni ureyiniz isteyen kimi duzelde bilersiz.
